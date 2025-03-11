@@ -16,15 +16,9 @@ public class Sum {
 			if(map.containsKey(extra)) {
 				return new int[] { map.get(extra),i};
 			}
-			
-			map.put(num[i], i);
-			
-		}
-		
-		return null;
-		
-		
-		
+			map.put(num[i], i);	
+		}	
+		return null;			
 	}
 
 	public static void main(String[] args) {
@@ -34,5 +28,4 @@ public class Sum {
        System.out.println(Arrays.toString(result));
 
 	}
-
 }
